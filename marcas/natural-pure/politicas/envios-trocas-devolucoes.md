@@ -12,12 +12,12 @@
 
 ## Trocas
 - Até **7 dias corridos após o recebimento** para pedir a troca.
-- O item deve estar na **embalagem original, sem sinais de uso**, com todos os itens e acessórios.
+- O item deve estar na **embalagem original, com o lacre intacto**, com todos os itens e acessórios. _(Antes: "sem sinais de uso"; trocado em 10/10/2026.)_
 - Como: o cliente fala com o atendimento, que **envia uma etiqueta reversa**. O cliente imprime, cola no pacote e despacha.
 
 ## Devoluções
 - Também **7 dias corridos** (a partir do recebimento).
-- Produto **em perfeitas condições** e **com a nota fiscal**.
+- Produto **com o lacre intacto** e **com a nota fiscal**. _(Exigência da nota fiscal: aguardando o jurídico.)_
 - O atendimento envia uma **etiqueta reversa** para o cliente despachar. **O frete da devolução é pago pela Natural Pure.**
 
 ## Reembolso
@@ -49,4 +49,5 @@
 - [x] Prazo por região → não existe; o prazo aparece no checkout e no rastreio
 - [x] Frete da devolução → pago pela NP
 - [x] Reembolso → pelo mesmo meio de pagamento
-- [ ] **Jurídico:** revisar as condições do arrependimento ("sem sinais de uso", nota fiscal). Sugestão: trocar "sem sinais de uso" por **"com o lacre intacto"**, que é objetivo e se justifica por segurança alimentar. Ver `memoria/decisoes/2026-10-10-politica-np.md`.
+- [x] "Sem sinais de uso" → **"com o lacre intacto"** (aprovado pela Gisele)
+- [ ] **Jurídico:** pode exigir **nota fiscal** na devolução por arrependimento? Ver `memoria/decisoes/2026-10-10-politica-np.md`.

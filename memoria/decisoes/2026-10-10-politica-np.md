@@ -11,3 +11,5 @@ Em aberto (jurídico): condições do arrependimento.
 - **Troca por gosto** (produto perfeito, cliente quer outro) **não é obrigação legal**: é cortesia, e a NP pode definir as regras.
 - **Arrependimento de compra online** (CDC art. 49, 7 dias) é direito do cliente e **não depende de motivo**. A lei não lista condições. Exigir que o produto volte sem uso é razoável para suplemento (segurança alimentar), mas é melhor escrever de forma objetiva: **"lacre intacto"**. Condicionar o direito à **nota fiscal** é o ponto mais frágil, porque a compra já está registrada no sistema.
 - O Claude não é advogado: confirmar com o jurídico.
+
+Atualização (mesmo dia): Gisele aprovou **30 dias** para reclamar de defeito e **"lacre intacto"** no lugar de "sem sinais de uso". Fica para o jurídico só a exigência de nota fiscal.

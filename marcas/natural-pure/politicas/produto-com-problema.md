@@ -1,6 +1,6 @@
 # Produto com problema — Natural Pure
 
-**Status:** 🟡 rascunho criado com a Gisele em 10/10/2026 · prazos legais a confirmar com o jurídico
+**Status:** ✅ aprovado pela Gisele em 10/10/2026 (inclusive os 30 dias) · jurídico confirma quando puder
 
 Vale para: produto **quebrado, vazado, amassado com dano ao conteúdo, vencido, com defeito, errado** ou **faltando item** no pedido.
 Não confundir com **troca/devolução por arrependimento** (`envios-trocas-devolucoes.md`), que é quando o produto está perfeito e o cliente desistiu.
