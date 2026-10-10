@@ -19,7 +19,19 @@ O time humano atende WhatsApp, Instagram e e-mail, mas **as pessoas chamam fora 
 | Chat do site | Widget no site/Shopify | O mais fácil e seguro para testar primeiro. |
 | E-mail | Caixa de suporte (Gmail/Google Workspace) | Pode começar como **rascunho** que o time aprova. |
 
-Recomendação: **uma "caixa de entrada" única** (plataforma de atendimento) que junta os 4 canais, onde a IA responde e o time assume quando precisa. Construir isso do zero não vale a pena; o sob medida é a IA + o cérebro + a ligação com Shopify/Hotmart.
+**A NP já tem a caixa de entrada única: Duotalk** (WhatsApp pela API oficial; a Duotalk também atende Instagram DM, Messenger e WebChat).
+Então **não vamos construir canal nenhum**. A IA se pluga na Duotalk, e o time continua usando a mesma tela para assumir conversas.
+E-mail (contato@npnatural.com.br) fica para depois, como rascunho que o time aprova.
+
+### Duas formas de plugar a IA na Duotalk (a confirmar com o suporte da Duotalk)
+| | A) IA nativa da Duotalk | B) Nosso agente via API/webhook |
+|---|---|---|
+| Como | Configura a IA da própria Duotalk com o conteúdo do cérebro | A Duotalk avisa nosso servidor a cada mensagem; nosso agente (Claude + cérebro + Shopify) responde pela API |
+| Velocidade | Rápido de ligar | Algumas semanas |
+| Controle | Limitado ao que a Duotalk permite | Total: regras do NAO-DIZER, consulta de pedido na Shopify, teste no escuro, métricas |
+| Consulta "cadê meu pote" | Depende de integração Shopify da Duotalk | Sim, direto na Shopify |
+
+**Recomendação:** perguntar à Duotalk sobre a opção B. Se a API permitir receber e enviar mensagens e transferir para humano, vamos de B. A A serve de plano rápido só se for possível travar bem o que a IA fala.
 
 ## Fases
 | Fase | Marca | O agente faz | Critério para avançar |
@@ -41,9 +53,10 @@ De manhã o time recebe: **resolvidas · pendentes (com resumo) · leads quentes
 - Erros graves (meta: zero)
 
 ## Pendências — decisões da Gisele
-- [ ] Hoje o WhatsApp da NP é o **app WhatsApp Business** ou já é a **API oficial** (com alguma plataforma)? Qual?
-- [ ] Horário comercial exato (início/fim, sábado?)
+- [x] WhatsApp NP = **API oficial via Duotalk** (10/10/2026)
+- [ ] Perguntar à Duotalk: API/webhook para receber e enviar mensagens? transferir para humano? etiquetas? Instagram já conectado?
+- [x] Horário humano: **seg–sex 9h–18h, exceto feriados** → o agente cobre **seg–sex 18h–9h + sábado, domingo e feriados inteiros**
 - [ ] Exportar 50–100 conversas antigas do WhatsApp da NP (noturnas/fim de semana) para a Fase 0
-- [ ] Documentos de política (entrega, troca, frete) — `marcas/natural-pure/politicas/`
+- [x] Política de envios, trocas e devoluções (`marcas/natural-pure/politicas/`), com 7 lacunas a decidir
 - [ ] Quem é o responsável técnico que valida o `NAO-DIZER.md` e as alegações
 - [ ] O que o agente pode oferecer: cupom? frete? (padrão: **nada** que não esteja escrito)
