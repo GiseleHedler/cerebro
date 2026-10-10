@@ -7,7 +7,7 @@
 | Pasta / arquivo | Conteúdo | Status |
 |---|---|---|
 | `NAO-DIZER.md` | Limites legais e de segurança. **Vale acima de tudo.** | 🟡 rascunho — validar com responsável técnico |
-| `produtos/catalogo.md` | Lista oficial de produtos, nomes corretos, composição, modo de uso, preço | 🟡 só nomes; falta o resto |
+| `produtos/catalogo.md` + 21 fichas | Nomes e preços oficiais (site), descrição de cada produto | 🟡 nomes OK; descrições sem revisão técnica |
 | `politicas/` | Entrega, frete, troca, devolução, pagamento | ❌ vazio — documento não encontrado no Drive |
 | `atendimento/` | Respostas aprovadas por tipo de pergunta | 🟡 em construção |
 | `revisao/` | Material antigo que precisa ser reescrito antes de usar | 🔴 NÃO USAR |
