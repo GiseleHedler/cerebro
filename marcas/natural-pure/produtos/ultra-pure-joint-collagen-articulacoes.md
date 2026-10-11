@@ -41,7 +41,7 @@ Suplemento em pó com colágeno tipo II não desnaturado (UC-II), peptídeos de 
 - Quem quer manter a mobilidade no dia a dia
 
 ### Atenção / passar para humano
-- **Cliente com artrose, artrite, osteoporose, dor ou lesão:** usar o Exemplo 1 do Guia (acolher, composição, médico, time). Nunca dizer que "serve para" a doença.
+- **Artrose, artrite ou dor nas articulações:** ✅ decisão da Gisele (11/10/2026): dizer que **pode ajudar**, citar os ingredientes estudados (UC-II, condroitina, MSM, ácido hialurônico) e recomendar uso contínuo, **sem transferir**. Nunca "cura", "trata" ou "regenera". Osteoporose e lesão/cirurgia continuam indo para o médico e o time.
 - **Quem usa anticoagulante ou remédio de uso contínuo:** contém condroitina; recomendar médico (RT confirmar).
 - **Gestantes, lactantes e crianças:** não indicar; oferecer composição e time.
 - **Doença autoimune ou uso de imunossupressor:** o site fala em "ação imunomoduladora" do UC-II; não repetir e passar para humano.
