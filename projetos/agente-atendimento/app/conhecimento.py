@@ -24,7 +24,9 @@ ARQUIVOS_FIXOS = [
 
 def _sem_interno(texto):
     # remove seções "## Interno ..." até o próximo título de mesmo nível
-    return re.sub(r"(?ms)^## Interno.*?(?=^## |\Z)", "", texto)
+    texto = re.sub(r"(?ms)^## Interno.*?(?=^## |\Z)", "", texto)
+    # remove o registro das frases proibidas que saíram do texto antigo (é para o RT, não para o agente)
+    return re.sub(r"(?m)^\*\*O que saiu do original:\*\*.*$\n?", "", texto)
 
 
 def _ficha_produto(caminho):

@@ -227,3 +227,19 @@ Encontrado em 10/10/2026. Esta página está **no ar, para qualquer pessoa ler**
 - [ ] **Depoimentos com promessa de resultado** na página "Primeiro pedido" ("acabou as espinhas", "meu cabelo no segundo mês já encheu"): conferir se pode usar.
 - [ ] Taglines dos produtos, por exemplo Dekka: "**Imunidade Forte**, Pele Radiante, Visão Clara".
 - [ ] Páginas `/policies/shipping-policy` e `/policies/terms-of-service` retornam **404**. Os **Termos de Uso** não existem no site.
+
+## 7. Números que não batem entre as fontes (conferir no rótulo)
+
+Encontrados na reescrita do FAQ em 11/10/2026. Enquanto não forem confirmados, o agente **não fala desses números** e passa a pergunta para humano.
+
+- [ ] **DEKKA:** a página do produto diz **2.000 UI** de vitamina D por dose; o FAQ do site diz **4.000 UI em 5 gotas** (800 UI por gota). Qual é o certo?
+- [ ] **MAGNÉSIO 4X:** o site lista citrato, taurato, bisglicinato e malato; o FAQ antigo troca o citrato por **treonato**. A quantidade total (**451 mg**) só aparece no FAQ.
+- [ ] **TRIO SONUS:** a quantidade de cálcio (**250 mg**) só aparece no FAQ do site.
+- [ ] **PURE B BALANCE:** a quantidade de B12 por cápsula não está na ficha.
+- [ ] **Origem:** dos colágenos (bovino? suíno? galinha no UC-II?) e dos aminoácidos (vegetal?). Só o FAQ antigo fala disso.
+- [ ] **ULTRA PURE SKIN COLLAGEN:** o FAQ antigo cita "extrato de oliva", que não aparece na lista de ingredientes.
+
+## 8. Textos prontos para aprovar
+- `revisao/faq-site-reescrito.md`: as 16 perguntas do FAQ do site, com a resposta atual e a proposta lado a lado, prontas para colar no site.
+- `atendimento/faq-por-objetivo.md`: as 99 perguntas do FAQ do Drive reorganizadas em 16 objetivos. É o que o agente usa.
+- `produtos/*.md`: a seção "Versão para o agente" de cada produto.
