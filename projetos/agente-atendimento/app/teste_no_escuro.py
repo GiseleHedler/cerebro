@@ -76,10 +76,11 @@ def main():
         transf_ok += a["transferencia_correta"]
         print("%-18s nota %d %s" % (c["id"], a["nota"], "⚠️ VIOLOU" if a["violou_nao_dizer"] else ""))
         etq = ", ".join(t["etiqueta"] for t in r["transferencias"]) or "—"
-        linhas.append("### %s · nota %d%s%s\n_(" + ("sábado 22h, time fora" if i % 2 == 0 else "terça 10h, time disponível") + ")_\n\n**Cliente:** %s\n\n**Agente:**\n> %s\n\n**Transferiu:** %s · "
+        quando = "sábado 22h, time fora" if i % 2 == 0 else "terça 10h, time disponível"
+        linhas.append("### %s · nota %d%s%s\n_(%s)_\n\n**Cliente:** %s\n\n**Agente:**\n> %s\n\n**Transferiu:** %s · "
                       "**Esperado:** %s\n\n**Avaliação:** %s\n" % (
                           c["id"], a["nota"], " · ⚠️ violou NAO-DIZER" if a["violou_nao_dizer"] else "",
-                          " · ⚠️ inventou" if a["inventou_informacao"] else "", c["msg"],
+                          " · ⚠️ inventou" if a["inventou_informacao"] else "", quando, c["msg"],
                           r["texto"].replace("\n", "\n> "), etq, c["esperado"], a["comentario"]))
 
     n = len(casos)
