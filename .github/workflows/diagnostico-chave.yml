@@ -1,0 +1,36 @@
+name: Diagnóstico — onde está a chave da Anthropic
+
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths: [".github/workflows/diagnostico-chave.yml"]
+
+jobs:
+  procurar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Procurar a chave (só diz se existe; nunca mostra o valor)
+        env:
+          S1: ${{ secrets.ANTHROPIC_API_KEY }}
+          V1: ${{ vars.ANTHROPIC_API_KEY }}
+          S2: ${{ secrets.ANTHROPIC_KEY }}
+          S3: ${{ secrets.CLAUDE_API_KEY }}
+          S4: ${{ secrets.API_KEY }}
+          S5: ${{ secrets.ANTHROPIC }}
+          S6: ${{ secrets.ANTROPIC_API_KEY }}
+          S7: ${{ secrets.ANTHROPIC_API_KEY_ }}
+          V2: ${{ vars.ANTHROPIC_KEY }}
+          V3: ${{ vars.API_KEY }}
+        run: |
+          check() { if [ -n "$2" ]; then echo "ENCONTRADA: $1 (começa com sk-ant? $( [[ "$2" == sk-ant-* ]] && echo sim || echo NAO ))"; else echo "vazio: $1"; fi; }
+          check "Secret ANTHROPIC_API_KEY" "$S1"
+          check "Variable ANTHROPIC_API_KEY" "$V1"
+          check "Secret ANTHROPIC_KEY" "$S2"
+          check "Secret CLAUDE_API_KEY" "$S3"
+          check "Secret API_KEY" "$S4"
+          check "Secret ANTHROPIC" "$S5"
+          check "Secret ANTROPIC_API_KEY" "$S6"
+          check "Secret ANTHROPIC_API_KEY_" "$S7"
+          check "Variable ANTHROPIC_KEY" "$V2"
+          check "Variable API_KEY" "$V3"
