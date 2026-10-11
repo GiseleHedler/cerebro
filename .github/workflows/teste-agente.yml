@@ -1,0 +1,49 @@
+name: Teste no escuro — agente Natural Pure
+
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:                    # roda quando o agente ou o conhecimento da NP mudam
+      - "projetos/agente-atendimento/app/**"
+      - "marcas/natural-pure/**"
+      - ".github/workflows/teste-agente.yml"
+
+permissions:
+  contents: write             # salva o relatório em projetos/agente-atendimento/resultados/
+
+concurrency:
+  group: teste-agente
+  cancel-in-progress: true
+
+jobs:
+  teste:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependências
+        run: pip install -r projetos/agente-atendimento/app/requirements.txt
+
+      - name: Rodar o teste no escuro
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        working-directory: projetos/agente-atendimento/app
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "::warning::Falta o segredo ANTHROPIC_API_KEY neste repositório (Settings > Secrets and variables > Actions). Teste pulado."
+            exit 0
+          fi
+          python3 teste_no_escuro.py
+
+      - name: Salvar o relatório
+        run: |
+          git config user.name "cerebro-bot"
+          git config user.email "bot@cerebro"
+          git add projetos/agente-atendimento/resultados/
+          git commit -m "teste no escuro: relatório [skip ci]" || echo "sem mudança"
+          git push || echo "nada para empurrar"
