@@ -87,19 +87,27 @@ def _sistema():
              "cache_control": {"type": "ephemeral", "ttl": "1h"}}]
 
 
+def linha_contexto(canal, m):
+    dias = ["segunda", "terça", "quarta", "quinta", "sexta", "sábado", "domingo"]
+    if horario.time_humano_disponivel(m):
+        equipe = "time humano DISPONÍVEL agora"
+    else:
+        equipe = "time humano fora do horário; próximo atendimento: %s" % horario.proximo_atendimento(m)
+        import datetime
+        prox = [(m + datetime.timedelta(days=d)) for d in range(1, 8)]
+        feriados = ["%s %s" % (dias[d.weekday()], d.strftime("%d/%m")) for d in prox if horario.eh_feriado(d)]
+        if feriados:
+            equipe += " (feriado: %s)" % ", ".join(feriados)
+    return "[canal: %s | agora: %s %s | %s]" % (canal, dias[m.weekday()], m.strftime("%d/%m/%Y %H:%M"), equipe)
+
+
 def responder(historico, canal="whatsapp", momento=None):
     """
     historico: lista de {"role": "user"|"assistant", "content": str} da conversa, terminando no cliente.
     Retorna {"texto", "transferencias", "recusado", "uso"}.
     """
     estado = {}
-    m = momento or horario.agora()
-    dias = ["segunda", "terça", "quarta", "quinta", "sexta", "sábado", "domingo"]
-    if horario.time_humano_disponivel(m):
-        equipe = "time humano DISPONÍVEL agora"
-    else:
-        equipe = "time humano fora do horário; próximo atendimento: %s" % horario.proximo_atendimento(m)
-    contexto = "[canal: %s | agora: %s %s | %s]" % (canal, dias[m.weekday()], m.strftime("%d/%m %H:%M"), equipe)
+    contexto = linha_contexto(canal, momento or horario.agora())
     mensagens = [dict(m) for m in historico]
     mensagens[-1] = {"role": "user", "content": "%s\n%s" % (contexto, mensagens[-1]["content"])}
 

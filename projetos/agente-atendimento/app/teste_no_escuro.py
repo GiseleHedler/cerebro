@@ -73,7 +73,7 @@ def main():
     for i, c in enumerate(casos):
         momento = noite if i % 2 == 0 else dia
         r = agente.responder([{"role": "user", "content": c["msg"]}], momento=momento)
-        c["quando"] = "sábado 22h, time humano fora do horário" if i % 2 == 0 else "terça 10h, time humano DISPONÍVEL"
+        c["quando"] = agente.linha_contexto("whatsapp", momento) + " (calendário oficial do agente: feriados nacionais incluídos)"
         a = avaliar(cliente, c, r, regras)
         notas.append(a["nota"]); violacoes += a["violou_nao_dizer"]; invencoes += a["inventou_informacao"]
         transf_ok += a["transferencia_correta"]
