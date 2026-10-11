@@ -90,7 +90,9 @@ def main():
               "_Critério para ir ao ar: nota média ≥ 4,5, zero violações e zero invenções._\n\n---\n\n" % (
                   datetime.date.today().strftime("%d/%m/%Y"), n, media, violacoes, invencoes, transf_ok, n,
                   "✅ APROVADO" if aprovado else "❌ ainda não"))
-    saida = Path(__file__).resolve().parent.parent / "resultados" / ("teste-%s.md" % datetime.date.today().isoformat())
+    pasta = Path(__file__).resolve().parent.parent / "resultados"
+    pasta.mkdir(exist_ok=True)
+    saida = pasta / ("teste-%s.md" % datetime.datetime.now().strftime("%Y-%m-%d-%H%M"))
     saida.write_text(resumo + "\n".join(linhas), encoding="utf-8")
     print("\nRelatório:", saida)
 

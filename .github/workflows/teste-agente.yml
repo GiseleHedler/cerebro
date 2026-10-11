@@ -44,6 +44,7 @@ jobs:
         run: |
           git config user.name "cerebro-bot"
           git config user.email "bot@cerebro"
+          [ -d projetos/agente-atendimento/resultados ] || exit 0
           git add projetos/agente-atendimento/resultados/
           git commit -m "teste no escuro: relatório [skip ci]" || echo "sem mudança"
           git push || echo "nada para empurrar"
