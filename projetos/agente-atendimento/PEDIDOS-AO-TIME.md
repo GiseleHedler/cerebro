@@ -2,7 +2,12 @@
 
 Atualizado em 11/10/2026. Cada bloco vai para uma pessoa. Quando algo ficar pronto, avise o Claude.
 
-## 1. Quem fala com a Duotalk 🔴 (é o que mais trava)
+## 1. Quem fala com a Duotalk ✅ respondido em 11/10/2026
+Respostas: tem API; WhatsApp e Instagram caem no mesmo lugar; dá para transferir e colocar etiquetas por API; a transferência avisa o time com som e mostra há quanto tempo a pessoa espera; o WhatsApp de suporte e o Instagram da NP já estão conectados.
+- [ ] **Falta:** a documentação da API e o token de acesso
+- [ ] **Falta confirmar:** o chat do site (WebChat) também está na Duotalk?
+
+Perguntas originais:
 Mandar ao suporte da Duotalk:
 1. A Duotalk tem **API ou webhook** para um sistema externo **receber as mensagens** que chegam (WhatsApp e Instagram) e **enviar respostas** pela mesma conversa?
 2. Por API, dá para **transferir a conversa para um atendente humano** e **colocar etiquetas**?

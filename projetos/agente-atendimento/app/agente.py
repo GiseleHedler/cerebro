@@ -13,7 +13,10 @@ import json
 
 import anthropic
 
+import os
+
 import conhecimento
+import conhecimento_drive
 import ferramentas
 import horario
 
@@ -70,9 +73,16 @@ def _client():
     return _cliente
 
 
+def _base():
+    # Fonte oficial: Google Drive (pasta Cérebro). Sem as credenciais do Drive, usa a cópia do GitHub.
+    if os.environ.get("GOOGLE_SERVICE_ACCOUNT_JSON") and os.environ.get("CEREBRO_DRIVE_PASTA_ID"):
+        return conhecimento_drive.montar()
+    return conhecimento.montar()
+
+
 def _sistema():
     # O texto da base muda só quando o cérebro muda; o horário fica fora do prompt fixo para não quebrar o cache.
-    return [{"type": "text", "text": INSTRUCOES.replace("{base}", conhecimento.montar()),
+    return [{"type": "text", "text": INSTRUCOES.replace("{base}", _base()),
              "cache_control": {"type": "ephemeral", "ttl": "1h"}}]
 
 
