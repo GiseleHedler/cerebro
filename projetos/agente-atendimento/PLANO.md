@@ -60,3 +60,12 @@ De manhã o time recebe: **resolvidas · pendentes (com resumo) · leads quentes
 - [x] Política de envios, trocas e devoluções (`marcas/natural-pure/politicas/`), com 7 lacunas a decidir
 - [ ] Quem é o responsável técnico que valida o `NAO-DIZER.md` e as alegações
 - [ ] O que o agente pode oferecer: cupom? frete? (padrão: **nada** que não esteja escrito)
+
+## Resultado do teste no escuro (11/10/2026)
+| Rodada | Nota média | Frases proibidas | Invenções | Transferências certas |
+|---|---|---|---|---|
+| 1 | 4,00 | 0 | 8 (avaliador sem a base) | 25/25 |
+| 2 | 4,32 | 0 | 8 (avaliador sem saber do feriado de 12/10) | 25/25 |
+| 3 | **4,88** | **0** | **0** | **25/25** → ✅ aprovado nos casos escritos |
+
+Próximo: rodar com as **conversas reais exportadas da Duotalk** (terça).
