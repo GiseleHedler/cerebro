@@ -14,7 +14,7 @@
 - **Proposta de rodapé da página** (fixo, abaixo das perguntas):
   > "Os suplementos da Natural Pure não substituem uma alimentação equilibrada e não se destinam a tratar, curar ou prevenir doenças. Gestantes, lactantes, crianças, adolescentes e pessoas em tratamento de saúde devem consultar seu médico ou nutricionista antes de usar. Ficou com dúvida? Fale com a gente: (51) 99505-9234 · contato@npnatural.com.br."
 
-> ⚠️ **Dois números precisam do rótulo antes de publicar:** a quantidade de magnésio do MAGNÉSIO 4X (pergunta 9) e as UI de vitamina D e A do DEKKA (pergunta 14). Eles estão marcados com `[RT: …]` no texto proposto.
+> ⚠️ **Dois números precisam do rótulo antes de publicar:** a quantidade de magnésio do MAGNÉSIO 4X (pergunta 9) e a vitamina A do DEKKA (pergunta 14; a vitamina D já foi confirmada: 2.000 UI). Eles estão marcados com `[RT: …]` no texto proposto.
 
 ---
 
@@ -182,9 +182,9 @@
 > 100 mcg de vitamina D (5 gotas) equivale a 4000 UI de vitamina D. Ou seja, em 5 gotas do produto Dekka, há 4000 UI de vitamina D, totalizando 800 UI por gota do produto. 1375 mcg de vitamina A (palmitato de retinol em solução de glicerol) equivale a 4579 UI de vitamina A. Portanto, em 5 gotas do produto Dekka, há 4579 UI, totalizando 915 UI por gota.
 
 **Resposta proposta:**
-> Na porção diária do **DEKKA** (5 gotas) há `[RT: X mcg]` de vitamina D3, o que equivale a `[RT: Y UI]`, e `[RT: X mcg]` de vitamina A, o que equivale a `[RT: Y UI]`. A conta é: para vitamina D, 1 mcg = 40 UI. Use sempre a porção do rótulo; a quantidade para cada pessoa é definida pelo médico ou nutricionista, de acordo com os exames.
+> Na porção diária do **DEKKA** (5 gotas) há **50 mcg de vitamina D3, o que equivale a 2.000 UI**, e `[RT: X mcg]` de vitamina A, o que equivale a `[RT: Y UI]`. A conta é: para vitamina D, 1 mcg = 40 UI. Use sempre a porção do rótulo; a quantidade para cada pessoa é definida pelo médico ou nutricionista, de acordo com os exames.
 
-**Por que mudou:** **conflito de informação**: a página do produto diz **2.000 UI de vitamina D3 por dose** e este FAQ diz **4.000 UI**; precisa ser conferido no rótulo antes de publicar. Também tiramos a conta "por gota", que serve de base para fracionar a dose (foi assim que o FAQ antigo indicou "1 gota" para criança de 5 anos).
+**Por que mudou:** **número desatualizado**: a fórmula atual tem **2.000 UI** de vitamina D3 por porção (confirmado pela Gisele em 11/10/2026); o site ainda mostra os 4.000 UI da fórmula antiga. Também tiramos a conta "por gota", que serve de base para fracionar a dose (foi assim que o FAQ antigo indicou "1 gota" para criança de 5 anos).
 
 > 📝 RT: a conversão de vitamina A depende da forma (palmitato de retinila); conferir 1.375 mcg → 4.579 UI no laudo do fornecedor.
 

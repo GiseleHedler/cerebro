@@ -535,7 +535,7 @@ O FAQ antigo já respondia com honestidade nesses casos. O agente mantém esse p
 ### ⚠️ Divergências encontradas nas fontes (para o RT resolver antes de o agente responder)
 | Produto | Divergência |
 |---|---|
-| DEKKA | A página do produto diz **2.000 UI de vitamina D3 por dose**; o FAQ do site diz **4.000 UI em 5 gotas (100 mcg)**. Confirmar no rótulo. Até lá, o agente **não informa UI**. |
+| DEKKA | ✅ Resolvido em 11/10/2026: **2.000 UI (50 mcg) de vitamina D3 por porção de 5 gotas** (fórmula atual). A fórmula antiga tinha 4.000 UI; se o cliente citar 4.000, explicar que pode ser frasco de lote anterior e pedir para conferir o rótulo. Nunca informar "UI por gota". Vitamina A: ainda sem número confirmado. |
 | MAGNÉSIO 4X | Site: citrato, taurato, bisglicinato e malato. FAQ antigo: taurato, **treonato**, bisglicinato e dimalato. Usar o site. Quantidade total (451 mg, segundo o FAQ do site) não está na ficha. |
 | ULTRA C COMPLEX | A descrição cita **proantocianidinas da semente de uva**; a lista de ingredientes termina em "concentrado hidrossolúvel de tomate" (parece cortada). Confirmar a lista completa. |
 | ULTRA PURE SKIN COLLAGEN | O FAQ antigo cita "extrato de oliva", que não aparece na lista de ingredientes do site. |

@@ -232,7 +232,7 @@ Encontrado em 10/10/2026. Esta página está **no ar, para qualquer pessoa ler**
 
 Encontrados na reescrita do FAQ em 11/10/2026. Enquanto não forem confirmados, o agente **não fala desses números** e passa a pergunta para humano.
 
-- [ ] **DEKKA:** a página do produto diz **2.000 UI** de vitamina D por dose; o FAQ do site diz **4.000 UI em 5 gotas** (800 UI por gota). Qual é o certo?
+- [x] **DEKKA:** o certo é **2.000 UI por porção de 5 gotas** (fórmula atual; a antiga tinha 4.000). ➜ **Corrigir o FAQ do site, que ainda diz 4.000 UI.** Falta confirmar a vitamina A.
 - [ ] **MAGNÉSIO 4X:** o site lista citrato, taurato, bisglicinato e malato; o FAQ antigo troca o citrato por **treonato**. A quantidade total (**451 mg**) só aparece no FAQ.
 - [ ] **TRIO SONUS:** a quantidade de cálcio (**250 mg**) só aparece no FAQ do site.
 - [ ] **PURE B BALANCE:** a quantidade de B12 por cápsula não está na ficha.

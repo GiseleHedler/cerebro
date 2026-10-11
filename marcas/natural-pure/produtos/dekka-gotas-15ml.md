@@ -11,7 +11,7 @@ Suplemento em gotas com as vitaminas lipossolúveis A, D3, E (tocoferóis mistos
 
 ### Composição principal
 - Vitamina A (retinol)
-- Vitamina D3 — 2.000 UI por dose
+- Vitamina D3 — **2.000 UI (50 mcg) por porção de 5 gotas** ✅ confirmado pela Gisele em 11/10/2026. Fórmula antiga tinha 4.000 UI; frascos de lote anterior podem trazer 4.000 UI no rótulo.
 - Vitamina E na forma de tocoferóis mistos (alfa, beta, gama e delta)
 - Vitamina K1 e vitamina K2 (MK7)
 - Base de TCM (triglicerídeos de cadeia média)
@@ -40,6 +40,7 @@ Suplemento em gotas com as vitaminas lipossolúveis A, D3, E (tocoferóis mistos
 - **Quem usa anticoagulante (ex.: varfarina):** a vitamina K pode interferir — o próprio site pede consulta ao médico. Passar para humano.
 - **Gestantes e lactantes:** o site pede consulta médica (vitamina A e K). Não indicar; oferecer composição e time.
 - **Crianças:** não indicar dose nem número de gotas. Passar para humano.
+- **"Quanto de vitamina D tem?"** → "Na fórmula atual, a porção de 5 gotas tem 2.000 UI de vitamina D3. Se o seu frasco for de um lote anterior, confira no rótulo, porque a fórmula antiga tinha 4.000 UI." Nunca fazer conta "por gota".
 - **Quem já toma vitamina D, vitamina A ou multivitamínico:** risco de somar doses; alinhar com médico ou nutricionista.
 - **Quem fala de exame com vitamina D alta/baixa ou cálcio alterado:** recomendar médico.
 
