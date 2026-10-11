@@ -1,6 +1,6 @@
 # Guia de linguagem — como falar dos produtos Natural Pure
 
-**Status:** 🟡 proposta (11/10/2026) · o responsável técnico valida as frases de função
+**Status:** 🟡 proposta (11/10/2026), com as decisões da Gisele sobre articulações e pele já aplicadas · o responsável técnico valida as frases de função
 **Vale para:** agente de atendimento, time, site, Instagram e criativos.
 
 A ideia não é falar menos. É **trocar a doença pela função**: em vez de dizer o que o produto trata, dizer o que os nutrientes dele fazem no corpo. O cliente continua entendendo para que serve, e a marca fica protegida.
@@ -11,7 +11,7 @@ A ideia não é falar menos. É **trocar a doença pela função**: em vez de di
 
 | ❌ Evitar (fala da doença ou promete) | ✅ Usar (fala da função) |
 |---|---|
-| "Serve para artrose" | "Contém colágeno tipo II, condroitina e ácido hialurônico, que **contribuem para a saúde das articulações e cartilagens**" |
+| "Cura a artrose" / "regenera a cartilagem" | "**Pode te ajudar**: tem UC-II, condroitina, MSM e ácido hialurônico, **ingredientes estudados em pessoas com desgaste nas articulações**" (decisão da Gisele, 11/10/2026) |
 | "Trata insônia" / "faz efeito no primeiro dia" | "Contém melatonina, que **auxilia na regulação do ciclo do sono**" |
 | "Reduz o colesterol" | "O ômega 3 (EPA e DHA) **contribui para a saúde cardiovascular**, junto com alimentação equilibrada" |
 | "Combate a ansiedade" | "Magnésio e triptofano **contribuem para o relaxamento e o bem-estar**" |
@@ -30,8 +30,9 @@ A ideia não é falar menos. É **trocar a doença pela função**: em vez de di
 
 > "Que bom que você perguntou! O **[produto]** contém **[ingredientes principais]**, que [função]. Como você comentou sobre **[condição]**, o ideal é confirmar com o médico ou nutricionista que te acompanha. Cada caso é um caso, e ele(a) conhece seus exames. Quer que eu te mande a **composição completa** para mostrar? Se preferir, nossa equipe de nutrição também te responde no próximo dia útil, a partir das 9h."
 
-### Exemplo 1: "Tenho artrose, o Joint Collagen serve pra mim?"
-> "O Ultra Pure Joint Collagen foi desenvolvido para a saúde das articulações: tem **colágeno tipo II não desnaturado (UC-II)**, peptídeos de colágeno, **condroitina, MSM, ácido hialurônico, magnésio e vitamina C**, nutrientes que fazem parte da estrutura da cartilagem e das articulações. Muita gente que quer cuidar das articulações usa no dia a dia. Como você tem artrose, vale alinhar com seu médico ou nutricionista para incluir no seu plano. Quer a composição completa para mostrar a ele(a)?"
+### Exemplo 1: "Tenho artrose, o Joint Collagen serve pra mim?" (atualizado por decisão da Gisele, 11/10/2026)
+> "Sim, ele pode te ajudar! O ULTRA PURE JOINT COLLAGEN reúne **colágeno tipo II não desnaturado (UC-II)**, colágeno hidrolisado, **condroitina, MSM e ácido hialurônico**, ingredientes estudados justamente em pessoas com desgaste e desconforto nas articulações, além de magnésio e vitamina C. Muitos clientes com artrose usam no dia a dia. O ideal é o uso contínuo: 1 porção ao dia. Se você faz acompanhamento médico, vale contar que vai incluir. Quer o link?"
+(Artrose e dor articular **não** são mais transferidas automaticamente. Ver FAQ por objetivo, seção 6.)
 
 ### Exemplo 2: "Tenho cálculo renal, posso tomar o Trio Sonus?"
 > "O Trio Sonus tem **melatonina, mio-inositol, L-triptofano, magnésio e cálcio (na forma de bisglicinato)**, camomila e maracujá. Como ele contém cálcio e você comentou sobre cálculo renal, recomendo confirmar com o médico que te acompanha. Ele vai saber pelo tipo de cálculo e pelos seus exames. Posso te mandar a composição completa? Se quiser, nossa equipe também fala com você no próximo dia útil."

@@ -7,6 +7,11 @@ Este arquivo vale acima de qualquer outro. Se um documento contradiz este, este 
 > alegações permitidas). Suplemento **não pode** alegar que trata, cura, previne ou alivia doença.
 > (Validar referências e regras com o responsável técnico — este texto não é parecer jurídico.)
 
+## Exceções decididas pela Gisele (11/10/2026)
+- **Articulações (Joint Collagen):** pode dizer que **ajuda** quem tem dor articular/artrose/artrite e que os ingredientes são **estudados** para isso. Continua proibido: "cura", "trata", "regenera", "acaba com a dor", "substitui o remédio".
+- **Pele, cabelo e unhas (Skin Collagen):** pode **afirmar** que ajuda na saúde da pele, do cabelo e das unhas.
+- _Registro: o Claude alertou que associar suplemento a doença (artrose) contraria a regra da ANVISA, mesmo com estudos; a Gisele decidiu assumir esse risco. Ver memória de 11/10/2026._
+
 ## Proibido
 1. **Associar produto a doença.** Nada de "para diabetes", "ajuda no câncer", "para TDAH", "baixa o colesterol", "trata ansiedade", "alivia artrite", "controla pressão".
 2. **Prometer resultado.** "Vai emagrecer", "o cabelo para de cair", "vai dormir bem".

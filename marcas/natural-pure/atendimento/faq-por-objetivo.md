@@ -184,23 +184,23 @@ Para quem fala em idade (ex.: 60 anos) sem citar doença: mesma resposta, acresc
 
 ## 6. Articulações e mobilidade
 
+> ✅ **Decisão da Gisele (11/10/2026):** o agente **pode dizer que o Joint Collagen ajuda** quem tem dor nas articulações, artrose, artrite ou osteoartrite, citando que os ingredientes são estudados para isso. **Não pode** dizer que "cura", "trata", "regenera a cartilagem" ou que "substitui o remédio". Artrose/dor articular **não precisa** mais ser transferida para humano, a não ser que a pessoa cite remédio anticoagulante, cirurgia recente ou dor forte que não passa.
+
 **Como o cliente costuma perguntar**
 - "Quero cuidar das articulações, pratico corrida."
 - "Sinto dor no joelho / nas costas, tem algo?"
-- "Tenho artrose / artrite / osteoartrite, o Joint serve?" → doença, ver variação.
+- "Tenho artrose / artrite / osteoartrite, o Joint serve?"
 
-**Resposta modelo**
-> "Para as articulações temos o **ULTRA PURE JOINT COLLAGEN** (sabor tangerina; também existe a versão ULTRAPURE JOINT COLLAGEN sabor frutas vermelhas). Ele tem **colágeno tipo II não desnaturado (UC-II)**, **colágeno hidrolisado**, **condroitina, MSM, ácido hialurônico, magnésio (bisglicinato) e vitamina C**, nutrientes que fazem parte da estrutura da cartilagem e das articulações. A vitamina C contribui para a formação normal de colágeno. Uso: 1 porção ao dia em água. Não é vegano; não tem glúten.
-> Se a ideia é um colágeno para o corpo todo, o **BODY COLLAGEN** tem 18 g de colágeno hidrolisado PEPTAN® por dose, sabor neutro.
-> Quer a composição completa?"
+**Resposta modelo (inclusive para artrose e dor nas articulações)**
+> "Sim, o **ULTRA PURE JOINT COLLAGEN** é o nosso produto para as articulações e pode te ajudar! Ele reúne ingredientes que são estudados justamente em pessoas com desgaste e desconforto nas articulações: **colágeno tipo II não desnaturado (UC-II)**, **colágeno hidrolisado**, **condroitina, MSM e ácido hialurônico**, além de **magnésio e vitamina C** (que contribui para a formação normal de colágeno). Muitos clientes com artrose usam no dia a dia.
+> O ideal é tomar todos os dias, de forma contínua: 1 porção ao dia em água. Não é vegano; não tem glúten.
+> Se você faz acompanhamento com médico ou fisioterapeuta, vale contar para ele(a) que vai incluir. Quer o link para comprar ou a composição completa?"
 
-Dor sem diagnóstico (joelho, costas): acrescentar "Dor que não passa merece avaliação de um médico ou fisioterapeuta; o suplemento entra como apoio nutricional, não como tratamento da dor."
+Versão sabor frutas vermelhas: **ULTRAPURE JOINT COLLAGEN**. Para colágeno de uso geral: **BODY COLLAGEN** (18 g de colágeno PEPTAN® por dose, sabor neutro).
 
-**Se a pessoa citar doença** (modelo do guia — artrose, artrite, osteoartrite, hérnia, dor crônica)
-> "Que bom que você perguntou! O **ULTRA PURE JOINT COLLAGEN** foi desenvolvido para a saúde das articulações: tem **colágeno tipo II não desnaturado (UC-II)**, colágeno hidrolisado, **condroitina, MSM, ácido hialurônico, magnésio e vitamina C**, nutrientes que fazem parte da estrutura da cartilagem e das articulações. Muita gente que quer cuidar das articulações usa no dia a dia. Como você tem **[artrose]**, vale alinhar com seu médico ou nutricionista para incluir no seu plano. Quer a composição completa para mostrar a ele(a)? Se preferir, nossa equipe de nutrição também te responde no próximo dia útil, a partir das 9h."
-→ etiqueta `saude`.
+**Ainda passa para humano** (etiqueta `saude`): quem usa **anticoagulante**, teve **cirurgia** recente, está **grávida/amamentando**, é **criança**, ou relata **dor forte, inchaço ou piora** que não passa. Nesses casos, acolher, informar a composição e recomendar o médico.
 
-**O que saiu do original:** "regenera cartilagem", "reduz a dor e a inflamação", "alivia os sintomas da artrite/osteoartrite", "ação anti-inflamatória comprovada", "reduz o risco de fraturas", recomendação do PURE ÔMEGA 3 para osteoartrite.
+**Nunca dizer:** "cura a artrose", "trata a artrite", "regenera a cartilagem", "acaba com a dor", "pode parar o remédio", "anti-inflamatório comprovado".
 
 **Perguntas originais cobertas:** #10, #50, #53, #76
 
@@ -236,23 +236,22 @@ Para quem fala em idade (ex.: 70 anos) sem citar doença: acrescentar "Se você 
 
 ## 8. Pele, cabelo e unhas
 
+> ✅ **Decisão da Gisele (11/10/2026):** o agente **afirma** que o Skin Collagen ajuda na saúde da pele, do cabelo e das unhas. Isso é benefício de beleza e bem-estar, não doença. A Natural Pure tem um artigo próprio que reúne os estudos (pedir à Gisele para colocar no cérebro, para o agente poder citar e enviar).
+
 **Como o cliente costuma perguntar**
 - "Quero melhorar minha pele."
 - "Minhas unhas quebram muito."
-- "Meu cabelo está caindo, o que vocês têm?"
-- "Tenho pele oleosa / acne." → condição de pele, ver variação.
+- "Meu cabelo está fraco / caindo, o que vocês têm?"
 
 **Resposta modelo**
-> "Para pele, cabelo e unhas, nosso produto principal é o **ULTRA PURE SKIN COLLAGEN** (sabor tangerina; também existe a versão ULTRAPURE SKIN COLLAGEN sabor abacaxi). Ele tem **peptídeos de colágeno VERISOL®**, **ácido hialurônico, vitamina C, vitamina E, zinco, selênio, biotina, silício e MSM**. O colágeno faz parte da estrutura da pele; a vitamina C contribui para a formação normal de colágeno; biotina, zinco e selênio auxiliam na manutenção de cabelos, unhas e pele; a vitamina E tem ação antioxidante. Uso: 1 porção ao dia em água.
-> Outras opções: **BODY COLLAGEN** (18 g de colágeno PEPTAN®, sabor neutro) e **PURE B BALANCE** (complexo B com biotina).
->
-> Cuidado com a pele é rotina: o colágeno entra junto com hidratação, sono e protetor solar. Importante: o ULTRA PURE SKIN COLLAGEN **não deve ser usado por crianças, gestantes e lactantes** (está no rótulo). Quer a composição completa?"
+> "O **ULTRA PURE SKIN COLLAGEN** ajuda na saúde da pele, do cabelo e das unhas! Ele tem **peptídeos de colágeno VERISOL®**, que são estudados para firmeza e hidratação da pele e para unhas mais fortes, além de **ácido hialurônico, vitamina C, vitamina E, zinco, selênio, biotina, silício e MSM**: a vitamina C contribui para a formação de colágeno, e biotina, zinco e selênio auxiliam na manutenção de cabelos, unhas e pele. Uso: 1 porção ao dia em água, todos os dias. Os resultados aparecem com o uso contínuo.
+> Também existe a versão **ULTRAPURE SKIN COLLAGEN** sabor abacaxi. Quer o link?"
 
-**Se a pessoa citar doença** (queda de cabelo intensa, alopecia, acne, dermatite, hipotireoidismo, unhas com fungo)
-> "Obrigado por contar! O **ULTRA PURE SKIN COLLAGEN** tem peptídeos de colágeno VERISOL®, vitaminas C e E, zinco, selênio, biotina, silício e ácido hialurônico, nutrientes que participam da manutenção de pele, cabelo e unhas. Como você comentou sobre **[queda de cabelo intensa / acne]**, vale investigar a causa com um dermatologista ou médico: queda e alterações na pele podem ter origem hormonal ou nutricional, e ele(a) vê pelos exames. Quer a composição completa para mostrar? Se preferir, nossa equipe de nutrição também te responde no próximo dia útil, a partir das 9h."
-→ etiqueta `saude`.
+Opções extras: **BODY COLLAGEN** (colágeno PEPTAN®, sabor neutro) e **PURE B BALANCE** (complexo B com biotina).
 
-**O que saiu do original:** "estimula o crescimento", "é eficaz em tratar deficiências", "regula hormônios relacionados à queda", "reduz rugas", "regula a produção de sebo", "extrato de oliva" (não aparece na composição do site).
+**Ainda passa para humano** (etiqueta `saude`): **gestantes, lactantes e crianças** (o rótulo do Skin Collagen não indica para esses grupos), e **queda de cabelo intensa/repentina**, que pode ter causa hormonal ou médica. Nesses casos: acolher, informar a composição e sugerir o médico/dermatologista.
+
+**Nunca dizer:** "trata alopecia", "cura acne", "acaba com a queda", "faz o cabelo crescer em X dias", resultado garantido.
 
 **Perguntas originais cobertas:** #4, #12, #41, #94
 
