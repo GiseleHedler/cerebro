@@ -22,8 +22,8 @@ ESFORCO = "medium"
 MAX_VOLTAS = 6
 
 INSTRUCOES = """Você é a assistente virtual de atendimento da Natural Pure, marca brasileira de suplementos alimentares.
-Você atende clientes pelo WhatsApp, Instagram e chat do site FORA do horário do time humano
-(o time atende de segunda a sexta, das 9h às 18h, exceto feriados).
+Você atende clientes pelo WhatsApp, Instagram e chat do site a qualquer hora. O time humano trabalha de segunda a
+sexta, das 9h às 18h, exceto feriados. A linha de contexto no início de cada mensagem diz se o time está disponível agora.
 
 Seu objetivo: resolver o que for possível com segurança, ajudar o cliente a comprar bem e deixar para o time,
 organizado, o que precisa de uma pessoa. Ninguém fica sem resposta.
@@ -52,8 +52,9 @@ Estilo:
 - Mensagens curtas, próprias de chat: no máximo 3 parágrafos curtos. Sem títulos, sem tabelas, sem markdown pesado;
   listas só com "•" quando ajudar. No máximo um emoji, se combinar.
 - Não diga que é humana. Se perguntarem, diga que é a assistente virtual da Natural Pure e que o time humano também pode
-  responder no próximo horário de atendimento.
-- Quando transferir, diga ao cliente o que vai acontecer e quando: "{proximo}".
+  ajudar (agora, se estiver no horário; senão, no próximo horário de atendimento).
+- Quando transferir, diga ao cliente o que vai acontecer e quando, usando a linha de contexto: se o time está disponível,
+  "vou chamar alguém da nossa equipe, já já te respondem por aqui"; se não, "nossa equipe te responde [próximo atendimento]".
 
 <base_de_conhecimento>
 {base}
@@ -71,8 +72,7 @@ def _client():
 
 def _sistema():
     # O texto da base muda só quando o cérebro muda; o horário fica fora do prompt fixo para não quebrar o cache.
-    return [{"type": "text", "text": INSTRUCOES.replace("{base}", conhecimento.montar())
-             .replace("{proximo}", "nossa equipe te responde no próximo horário de atendimento"),
+    return [{"type": "text", "text": INSTRUCOES.replace("{base}", conhecimento.montar()),
              "cache_control": {"type": "ephemeral", "ttl": "1h"}}]
 
 
@@ -84,8 +84,11 @@ def responder(historico, canal="whatsapp", momento=None):
     estado = {}
     m = momento or horario.agora()
     dias = ["segunda", "terça", "quarta", "quinta", "sexta", "sábado", "domingo"]
-    contexto = "[canal: %s | agora: %s %s | próximo atendimento humano: %s]" % (
-        canal, dias[m.weekday()], m.strftime("%d/%m %H:%M"), horario.proximo_atendimento(m))
+    if horario.time_humano_disponivel(m):
+        equipe = "time humano DISPONÍVEL agora"
+    else:
+        equipe = "time humano fora do horário; próximo atendimento: %s" % horario.proximo_atendimento(m)
+    contexto = "[canal: %s | agora: %s %s | %s]" % (canal, dias[m.weekday()], m.strftime("%d/%m %H:%M"), equipe)
     mensagens = [dict(m) for m in historico]
     mensagens[-1] = {"role": "user", "content": "%s\n%s" % (contexto, mensagens[-1]["content"])}
 
@@ -120,8 +123,9 @@ def responder(historico, canal="whatsapp", momento=None):
         # Sem resposta utilizável: nunca deixar o cliente no vácuo; o time assume.
         estado.setdefault("transferencias", []).append(
             {"etiqueta": "fora-da-base", "resumo": "O agente não conseguiu responder esta mensagem."})
-        texto = ("Obrigada pela mensagem! Vou deixar seu atendimento com a nossa equipe, que te responde %s. "
-                 % horario.proximo_atendimento(momento))
+        quando = ("já já" if horario.time_humano_disponivel(momento)
+                  else horario.proximo_atendimento(momento))
+        texto = "Obrigada pela mensagem! Vou deixar seu atendimento com a nossa equipe, que te responde %s." % quando
     uso = resposta.usage if resposta is not None else None
     return {
         "texto": texto,

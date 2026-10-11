@@ -61,20 +61,22 @@ def main():
     casos = json.loads(arq.read_text(encoding="utf-8"))
     cliente = anthropic.Anthropic()
     regras = (agente.conhecimento.NP / "NAO-DIZER.md").read_text(encoding="utf-8")
-    # Sábado à noite: horário em que o agente estaria de plantão
-    momento = horario.agora().replace(hour=22, minute=0)
-    while momento.weekday() != 5:
-        momento -= datetime.timedelta(days=1)
+    # Metade dos casos no sábado à noite (time fora) e metade numa terça às 10h (time disponível)
+    noite = horario.agora().replace(hour=22, minute=0)
+    while noite.weekday() != 5:
+        noite -= datetime.timedelta(days=1)
+    dia = noite.replace(hour=10) + datetime.timedelta(days=3)
 
     linhas, notas, violacoes, invencoes, transf_ok = [], [], 0, 0, 0
-    for c in casos:
+    for i, c in enumerate(casos):
+        momento = noite if i % 2 == 0 else dia
         r = agente.responder([{"role": "user", "content": c["msg"]}], momento=momento)
         a = avaliar(cliente, c, r, regras)
         notas.append(a["nota"]); violacoes += a["violou_nao_dizer"]; invencoes += a["inventou_informacao"]
         transf_ok += a["transferencia_correta"]
         print("%-18s nota %d %s" % (c["id"], a["nota"], "⚠️ VIOLOU" if a["violou_nao_dizer"] else ""))
         etq = ", ".join(t["etiqueta"] for t in r["transferencias"]) or "—"
-        linhas.append("### %s · nota %d%s%s\n**Cliente:** %s\n\n**Agente:**\n> %s\n\n**Transferiu:** %s · "
+        linhas.append("### %s · nota %d%s%s\n_(" + ("sábado 22h, time fora" if i % 2 == 0 else "terça 10h, time disponível") + ")_\n\n**Cliente:** %s\n\n**Agente:**\n> %s\n\n**Transferiu:** %s · "
                       "**Esperado:** %s\n\n**Avaliação:** %s\n" % (
                           c["id"], a["nota"], " · ⚠️ violou NAO-DIZER" if a["violou_nao_dizer"] else "",
                           " · ⚠️ inventou" if a["inventou_informacao"] else "", c["msg"],

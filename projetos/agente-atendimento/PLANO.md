@@ -40,7 +40,7 @@ E-mail (contato@npnatural.com.br) fica para depois, como rascunho que o time apr
 | **1. Noite/fim de semana — suporte** | NP | "Cadê meu pote" (Shopify), composição, modo de uso, políticas. Resto → humano de manhã. | 2 semanas estável |
 | **2. Noite — vendas** | NP | Recomenda por objetivo (só alegações aprovadas), manda link de checkout. | conversão medida |
 | **3. FSA** | FSA | Suporte de aluno ("onde acesso") + dúvidas da pós + captação de lead para o comercial. | — |
-| **4. Horário comercial** | todas | IA sugere resposta, humano aprova e envia. | — |
+| **4. 24 horas** | NP | Agente sempre ligado; no horário do time, transfere com "já já te respondem" (o time pega em até 15 min). | métricas da fase 1 boas |
 
 ## Passagem para humano (sempre)
 Doença / gestação / criança / remédio · reclamação ou cliente irritado · pedido de reembolso · qualquer coisa que não esteja no cérebro · pedido explícito ("quero falar com uma pessoa").
