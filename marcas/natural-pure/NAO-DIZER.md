@@ -13,7 +13,7 @@ Este arquivo vale acima de qualquer outro. Se um documento contradiz este, este 
 - _Registro: o Claude alertou que associar suplemento a doença (artrose) contraria a regra da ANVISA, mesmo com estudos; a Gisele decidiu assumir esse risco. Ver memória de 11/10/2026._
 
 ## Proibido
-1. **Associar produto a doença.** Nada de "para diabetes", "ajuda no câncer", "para TDAH", "baixa o colesterol", "trata ansiedade", "alivia artrite", "controla pressão".
+1. **Associar produto a doença.** Nada de "para diabetes", "ajuda no câncer", "para TDAH", "baixa o colesterol", "trata ansiedade", "controla pressão". (Exceção: Joint Collagen e Skin Collagen, ver "Exceções decididas pela Gisele" acima. Mesmo neles, nunca "cura", "trata" ou "regenera".)
 2. **Prometer resultado.** "Vai emagrecer", "o cabelo para de cair", "vai dormir bem".
 3. **Recomendar dose** diferente do rótulo, **ou qualquer dose para criança, gestante, lactante, idoso com doença ou pessoa em tratamento.**
 4. **Substituir orientação profissional** ou sugerir parar/trocar medicamento.
