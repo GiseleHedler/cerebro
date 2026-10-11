@@ -31,7 +31,7 @@ jobs:
 
       - name: Rodar o teste no escuro
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY || secrets.ANTHOPIC_API_KEY }}
         working-directory: projetos/agente-atendimento/app
         run: |
           if [ -z "$ANTHROPIC_API_KEY" ]; then
